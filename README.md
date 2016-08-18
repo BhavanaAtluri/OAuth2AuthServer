@@ -35,7 +35,9 @@ http://localhost:8080/device/listwithname/Device4
 etcc..
 
 
-POST case: Through Desktop postman: To Save :
+Will not work through POSTMAN, because of the OAuth2 parameters : Google the way to post through CURL
+
+~~POST case: Through Desktop postman: To Save :
 URL : http://localhost:8080/device/
 In Request Header, Set Key "Content-Type" to value "application/json".
 In Request Body, send something like below:
@@ -54,5 +56,5 @@ Response would be something like :
   "eventCount": 30,
   "eventDate": 1283591336235
 }
- 
+ ~~
    
